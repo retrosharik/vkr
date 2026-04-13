@@ -1,0 +1,33 @@
+{
+  "total_maps_requested": 2,
+  "generation_seed": 112235,
+  "maps_available": 2,
+  "newly_generated": 0,
+  "variant_label": "detector=hybrid+ml;search=hybrid+ml;path=shadow+ml;build=production",
+  "run_results": [
+    {
+      "map_name": "001__large__montreal__hard_far_edge_case",
+      "size_group": "large",
+      "base_map": "montreal",
+      "family": "hard_far_edge_case",
+      "finished": true,
+      "server_return_code": -9,
+      "agent_return_code": -15,
+      "status_path": "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/run_status.json"
+    },
+    {
+      "map_name": "002__small__test__widely_dispersed_singletons",
+      "size_group": "small",
+      "base_map": "test",
+      "family": "widely_dispersed_singletons",
+      "finished": true,
+      "server_return_code": -9,
+      "agent_return_code": -15,
+      "status_path": "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/run_status.json"
+    }
+  ],
+  "table_report_path": "/home/milim/agent/BaseRescueAgent/runtime/table/table_20260413_184418/benchmark_report.xlsx",
+  "table_session_dir": "/home/milim/agent/BaseRescueAgent/runtime/table/table_20260413_184418",
+  "postprocessing_skipped": true,
+  "training_skipped": true
+}

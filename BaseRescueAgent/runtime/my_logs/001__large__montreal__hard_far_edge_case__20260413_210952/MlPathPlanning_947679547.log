@@ -1,0 +1,34 @@
+[тик=0 агент=947679547 зона=38983 inst=i83024] Модуль инициализирован | instance=i83024 module=MlPathPlanning run_id=001__large__montreal__hard_far_edge_case__20260413_210952 type=path
+[тик=0 агент=947679547 зона=38983 inst=i83024] Инициализация path ML | logic_version=ml_path_planning model_path=/home/milim/agent/BaseRescueAgent/models/ml_path_planning/ml_path_planning.joblib path_ml_mode=heuristic
+[тик=0 агент=947679547 зона=38983 inst=i79216] Модуль инициализирован | instance=i79216 module=MlPathPlanning run_id=001__large__montreal__hard_far_edge_case__20260413_210952 type=path
+[тик=0 агент=947679547 зона=38983 inst=i79216] Инициализация path ML | logic_version=ml_path_planning model_path=/home/milim/agent/BaseRescueAgent/models/ml_path_planning/ml_path_planning.joblib path_ml_mode=heuristic
+[тик=0 агент=947679547 зона=38983 inst=i99344] Модуль инициализирован | instance=i99344 module=MlPathPlanning run_id=001__large__montreal__hard_far_edge_case__20260413_210952 type=path
+[тик=0 агент=947679547 зона=38983 inst=i99344] Инициализация path ML | logic_version=ml_path_planning model_path=/home/milim/agent/BaseRescueAgent/models/ml_path_planning/ml_path_planning.joblib path_ml_mode=heuristic
+[тик=0 агент=947679547 зона=38983 inst=i28336] Модуль инициализирован | instance=i28336 module=MlPathPlanning run_id=001__large__montreal__hard_far_edge_case__20260413_210952 type=path
+[тик=0 агент=947679547 зона=38983 inst=i28336] Инициализация path ML | logic_version=ml_path_planning model_path=/home/milim/agent/BaseRescueAgent/models/ml_path_planning/ml_path_planning.joblib path_ml_mode=heuristic
+[тик=0 агент=947679547 зона=38983 inst=i66320] Модуль инициализирован | instance=i66320 module=MlPathPlanning run_id=001__large__montreal__hard_far_edge_case__20260413_210952 type=path
+[тик=0 агент=947679547 зона=38983 inst=i66320] Инициализация path ML | logic_version=ml_path_planning model_path=/home/milim/agent/BaseRescueAgent/models/ml_path_planning/ml_path_planning.joblib path_ml_mode=heuristic
+[тик=1 агент=947679547 зона=38983 inst=i83024] Путь построен | caller=search first_hop=42044 время_мс=0.895 дистанция=69391.231 длина_пути=5 дорог=3 зданий=2 раскрыто_узлов=5 цель=38984
+[тик=1 агент=947679547 зона=38983 inst=i99344] Путь построен | caller=action_move first_hop=42044 время_мс=0.638 дистанция=69391.231 длина_пути=5 дорог=3 зданий=2 раскрыто_узлов=5 цель=38984
+[тик=2 агент=947679547 зона=38983 inst=i83024] Путь взят из кэша | caller=search дистанция=69391.231 длина_пути=5 цель=38984
+[тик=2 агент=947679547 зона=38983 inst=i99344] Путь взят из кэша | caller=action_move дистанция=69391.231 длина_пути=5 цель=38984
+[тик=3 агент=947679547 зона=38983 inst=i79216] Путь не требуется: агент уже в целевой зоне | caller_context=detector configured_model_path=models/ml_path_planning/ml_path_planning.joblib first_real_move_tick=-1 from=38983 mode=heuristic model_exists=True model_mtime=1775852160 model_size_bytes=543087 path_logic_version=ml_path_planning path_ml_active=False path_ml_shadow_only=True phase=search resolved_model_path=/home/milim/agent/BaseRescueAgent/models/ml_path_planning/ml_path_planning.joblib startup_recovery_locked=True stationary_ticks=0 to=38983
+[тик=3 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=3 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=3 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=4 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=4 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=4 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=4 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=5 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=5 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=5 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=5 агент=947679547 зона=38983 inst=i79216] Путь взят из кэша | caller=detector дистанция=0.0 длина_пути=1 цель=38983
+[тик=6 агент=947679547 зона=38983 inst=i99344] Путь построен | caller=action_transport first_hop=42044 время_мс=48.077 дистанция=1494310.901 длина_пути=61 дорог=59 зданий=2 раскрыто_узлов=446 цель=44678
+[тик=6 агент=947679547 зона=38983 inst=i99344] Путь построен | caller=action_transport first_hop=42044 время_мс=47.122 дистанция=1803242.563 длина_пути=69 дорог=67 зданий=2 раскрыто_узлов=750 цель=38218
+[тик=7 агент=947679547 зона=39463 inst=i99344] Путь построен | caller=action_transport first_hop=40446 время_мс=17.887 дистанция=1456560.46 длина_пути=59 дорог=58 зданий=1 раскрыто_узлов=446 цель=44678
+[тик=7 агент=947679547 зона=39463 inst=i99344] Путь построен | caller=action_transport first_hop=40446 время_мс=31.574 дистанция=1765492.122 длина_пути=67 дорог=66 зданий=1 раскрыто_узлов=750 цель=38218
+[тик=8 агент=947679547 зона=39463 inst=i99344] Путь взят из кэша | caller=action_transport дистанция=1456560.46 длина_пути=59 цель=44678
+[тик=8 агент=947679547 зона=39463 inst=i99344] Путь взят из кэша | caller=action_transport дистанция=1765492.122 длина_пути=67 цель=38218
+[тик=9 агент=947679547 зона=39464 inst=i99344] Путь построен | caller=action_transport first_hop=40290 время_мс=21.85 дистанция=1377533.677 длина_пути=57 дорог=56 зданий=1 раскрыто_узлов=433 цель=44678
+[тик=9 агент=947679547 зона=39464 inst=i99344] Путь построен | caller=action_transport first_hop=40290 время_мс=34.927 дистанция=1686465.339 длина_пути=65 дорог=64 зданий=1 раскрыто_узлов=735 цель=38218

@@ -1,0 +1,5 @@
+[2m2026-04-13 21:10.06[0m [[32m[1minfo     [0m] [1mSuccessfully connected to kernel (attempt: 1)[0m [[0m[1m[34madf_core_python.core.launcher.agent_launcher[0m][0m
+[2m2026-04-13 21:10.06[0m [[32m[1minfo     [0m] [1mKernel is running (host: localhost, port: 27931)[0m [[0m[1m[34madf_core_python.core.launcher.agent_launcher[0m][0m
+[2m2026-04-13 21:10.06[0m [[32m[1minfo     [0m] [1mStart agent launcher (host: localhost, port: 27931)[0m [[0m[1m[34madf_core_python.core.launcher.agent_launcher[0m][0m
+[2m2026-04-13 21:10.14[0m [[32m[1minfo     [0m] [1mAll agents have been launched [0m [[0m[1m[34madf_core_python.core.launcher.agent_launcher[0m][0m
+[2m2026-04-13 21:10.15[0m [[32m[1minfo     [0m] [1mConnected to kernel: PlatoonAmbulance (request_id: 1, agent_id: 947679547, mode: 0)[0m [[0m[1m[34madf_core_python.core.agent.platoon.platoon_ambulance.PlatoonAmbulance[0m][0m [36magent_id[0m=[35m947679547[0m [36magent_type[0m=[35mAMBULANCE_TEAM[0m [36mrequest_id[0m=[35m1[0m

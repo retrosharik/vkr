@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scenario:scenario xmlns:scenario="urn:roborescue:map:scenario">
+  <scenario:refuge scenario:location="298" scenario:bedCapacity="2"/>
+  <scenario:refuge scenario:location="255" scenario:bedCapacity="3"/>
+  <scenario:civilian scenario:location="936"/>
+  <scenario:civilian scenario:location="959"/>
+  <scenario:civilian scenario:location="251"/>
+  <scenario:civilian scenario:location="934"/>
+  <scenario:civilian scenario:location="953"/>
+  <scenario:civilian scenario:location="254"/>
+  <scenario:civilian scenario:location="253"/>
+  <scenario:civilian scenario:location="941"/>
+  <scenario:civilian scenario:location="938"/>
+  <scenario:civilian scenario:location="943"/>
+  <scenario:civilian scenario:location="937"/>
+  <scenario:civilian scenario:location="955"/>
+  <scenario:civilian scenario:location="948"/>
+  <scenario:civilian scenario:location="957"/>
+  <scenario:civilian scenario:location="946"/>
+  <scenario:civilian scenario:location="952"/>
+  <scenario:civilian scenario:location="950"/>
+  <scenario:civilian scenario:location="960"/>
+  <scenario:civilian scenario:location="247"/>
+  <scenario:ambulanceteam scenario:location="297"/>
+</scenario:scenario>

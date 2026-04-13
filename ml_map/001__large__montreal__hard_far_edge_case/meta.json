@@ -1,0 +1,16 @@
+{
+  "generated_name": "001__large__montreal__hard_far_edge_case",
+  "base_map": "montreal",
+  "size_group": "large",
+  "family": "hard_far_edge_case",
+  "seed": 223745899,
+  "requested_seed": 112235,
+  "requested_base_civilian_count": 12,
+  "generator_version": "3.0",
+  "effective_civilian_count": 16,
+  "actual_civilian_count": 16,
+  "building_count": 927,
+  "description": "hard far edge case",
+  "source_map_dir": "/home/milim/agent/rcrs-server/maps/montreal",
+  "source_config_dir": "/home/milim/agent/ml_map_generator/config"
+}

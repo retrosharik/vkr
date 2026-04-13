@@ -1,0 +1,25 @@
+{
+  "logs": {
+    "raw_dir": "runtime/raw_logs",
+    "my_dir": "runtime/my_logs",
+    "debug_dir": "runtime/log",
+    "max_logged_candidates": 64,
+    "schema_version": 3,
+    "decision_top_k_preview": 8,
+    "build_tag": "production"
+  },
+  "agent": {
+    "search_pause_during_rescue": true,
+    "phase_log_each_tick": true
+  },
+  "ml_v2": {
+    "enabled": true
+  },
+  "system": {
+    "build_tag": "production",
+    "log_level": "debug",
+    "write_text_logs": true,
+    "write_jsonl_logs": true,
+    "write_debug_jsonl": true
+  }
+}

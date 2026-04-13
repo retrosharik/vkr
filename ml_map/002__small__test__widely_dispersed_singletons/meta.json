@@ -1,0 +1,16 @@
+{
+  "generated_name": "002__small__test__widely_dispersed_singletons",
+  "base_map": "test",
+  "size_group": "small",
+  "family": "widely_dispersed_singletons",
+  "seed": 985039927,
+  "requested_seed": 112235,
+  "requested_base_civilian_count": 12,
+  "generator_version": "3.0",
+  "effective_civilian_count": 12,
+  "actual_civilian_count": 12,
+  "building_count": 37,
+  "description": "widely dispersed single civilians over the map",
+  "source_map_dir": "/home/milim/agent/rcrs-server/maps/test",
+  "source_config_dir": "/home/milim/agent/ml_map_generator/config"
+}

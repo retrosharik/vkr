@@ -1,0 +1,40 @@
+{
+  "map_name": "002__small__test__widely_dispersed_singletons",
+  "size_group": "small",
+  "base_map": "test",
+  "family": "widely_dispersed_singletons",
+  "command": "bash /home/milim/agent/rcrs-server/scripts/start-comprun.sh -m ../../ml_map/002__small__test__widely_dispersed_singletons/map -c ../../ml_map/002__small__test__widely_dispersed_singletons/config",
+  "agent_command": "/home/milim/agent/.venv/bin/python main.py",
+  "script_dir": "/home/milim/agent/rcrs-server/scripts",
+  "started_at_epoch": 1776095214.653895,
+  "finished_at_epoch": 1776095350.0367198,
+  "server_return_code": -9,
+  "agent_return_code": -15,
+  "agent_started": true,
+  "agent_run_id": "002__small__test__widely_dispersed_singletons__20260413_184654",
+  "finished": true,
+  "failure_reason": null,
+  "max_tick_seen": 150,
+  "expected_timesteps": 150,
+  "wall_runtime_sec": 135.354,
+  "copied_raw_logs": [
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/raw/210552869__detector.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/raw/210552869__path.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/raw/210552869__search.jsonl"
+  ],
+  "copied_debug_logs": [
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlDetector_210552869_detector_i45136.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlPathPlanning_210552869_path_i25920.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlPathPlanning_210552869_path_i27472.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlPathPlanning_210552869_path_i46352.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlPathPlanning_210552869_path_i46352.log",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlPathPlanning_210552869_path_i75760.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlPathPlanning_210552869_path_i76368.jsonl",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/debug/MlSearch_210552869_search_i26192.jsonl"
+  ],
+  "copied_text_logs": [
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/text/MlDetector_210552869.log",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/text/MlPathPlanning_210552869.log",
+    "/home/milim/agent/ml_map/002__small__test__widely_dispersed_singletons/run_logs/agent_runtime_logs/text/MlSearch_210552869.log"
+  ]
+}

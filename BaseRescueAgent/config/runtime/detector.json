@@ -1,0 +1,84 @@
+{
+  "detector": {
+    "enabled": true,
+    "mode": "hybrid",
+    "use_ml": true,
+    "model_path": "models/ml_detector/ml_detector.joblib",
+    "ml": {
+      "heuristic_weight": 0.15,
+      "ml_weight": 0.85,
+      "score_scale": 1.0,
+      "auto_model_paths": [
+        "models/ml_detector/ml_detector.joblib"
+      ],
+      "min_confidence": 0.5,
+      "min_margin": 0.0,
+      "override_min_delta": 0.018,
+      "override_max_trip_ratio": 1.25,
+      "override_min_life_margin": 14.0,
+      "override_soft_min_delta": 0.008,
+      "override_soft_min_confidence": 0.4,
+      "override_soft_min_margin": 0.0,
+      "override_soft_max_trip_ratio": 1.45,
+      "override_trip_advantage_ratio": 0.92,
+      "override_life_margin_advantage": 15.0,
+      "override_current_target_stale_ticks": 4,
+      "override_same_position_max_trip_ratio": 1.6,
+      "override_soft_min_life_margin": 8.0,
+      "override_near_tie_gap": 0.035
+    },
+    "weights": {
+      "life_margin_weight": 550.0,
+      "urgency_weight": 65.0,
+      "distance_weight": 0.18,
+      "competition_penalty": 2500.0,
+      "same_position_bonus": 3000.0,
+      "current_target_bonus": 4500.0,
+      "cluster_bonus": 2000.0,
+      "refuge_distance_weight": 0.06,
+      "blocked_penalty": 50000.0,
+      "current_target_bonus_decay_start_ticks": 4,
+      "current_target_bonus_decay_per_tick": 1100.0,
+      "current_target_stale_penalty_per_tick": 500.0
+    },
+    "selection": {
+      "path_check_top_k": 4,
+      "feature_path_probe_top_k": 4,
+      "keep_target_ticks": 4,
+      "switch_margin": 0.03,
+      "unreachable_block_ticks": 18,
+      "sticky_keep_ml_tolerance": 0.01,
+      "sticky_keep_break_delta": 0.015,
+      "sticky_keep_max_heuristic_rank": 2
+    },
+    "defer": {
+      "enabled": false,
+      "min_life_margin": 140.0,
+      "min_nearby_unvisited_buildings": 2,
+      "max_nearby_unvisited_buildings": 4,
+      "max_delay_ticks": 6,
+      "max_extra_buildings": 2,
+      "cooldown_ticks": 12,
+      "source_victim_limit_for_defer": 1,
+      "global_low_margin_threshold": 45.0,
+      "global_victim_count_force_immediate": 3
+    },
+    "scope": {
+      "local_radius": 12000.0,
+      "max_local_candidates": 12,
+      "max_global_candidates": 24,
+      "min_local_candidates_to_lock": 1,
+      "always_include_current_target": true,
+      "always_include_same_building_victims": true,
+      "global_challenger_count": 4,
+      "alternate_challenger_count": 3
+    },
+    "ml_v2": {
+      "shortlist_k": 5,
+      "outcome_window_ticks": 8,
+      "exploration_enabled": false,
+      "exploration_epsilon": 0.0,
+      "exploration_top_k": 3
+    }
+  }
+}

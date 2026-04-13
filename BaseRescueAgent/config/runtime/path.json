@@ -1,0 +1,74 @@
+{
+  "path": {
+    "enabled": true,
+    "use_ml": false,
+    "model_path": "models/ml_path_planning/ml_path_planning.joblib",
+    "weights": {
+      "road_preference_bonus": 120.0,
+      "building_penalty": 80.0
+    },
+    "cache": {
+      "enabled": true,
+      "ttl_ticks": 2,
+      "max_size": 512
+    },
+    "stuck": {
+      "stationary_ticks": 8,
+      "hard_block": false
+    },
+    "recovery": {
+      "avoid_blocked_first_hops": true,
+      "activate_only_after_first_real_move": true,
+      "first_hop_failure_threshold": 4,
+      "first_hop_block_ticks": 12,
+      "fallback_ignore_blocked_first_hops": false,
+      "min_attempt_age_ticks_before_fail": 3,
+      "max_attempt_age_ticks_before_fail": 6,
+      "edge_distance_per_extra_tick": 30000.0
+    },
+    "mode": "heuristic",
+    "ml": {
+      "auto_model_paths": [
+        "models/ml_path_planning/ml_path_planning.joblib"
+      ],
+      "risk_weight": 18000.0,
+      "apply_only_on_first_hop": true,
+      "max_first_hop_candidates": 8,
+      "max_distance_ratio": 1.35,
+      "allow_search_context": true,
+      "allow_detector_context": true,
+      "allow_action_context": true,
+      "history_fail_penalty": 4000.0,
+      "backtrack_penalty": 2500.0,
+      "blocked_history_penalty": 5000.0,
+      "high_risk_threshold": 0.55,
+      "high_risk_penalty_multiplier": 1.8,
+      "enable_first_hop_override": false,
+      "override_baseline_risk_threshold": 0.42,
+      "override_min_risk_improvement": 0.08,
+      "override_strong_risk_improvement": 0.14,
+      "override_max_cost_ratio": 1.18,
+      "override_max_cost_delta": 12000.0,
+      "override_max_final_cost_ratio": 1.08,
+      "override_relaxed_final_cost_ratio": 1.03,
+      "override_allow_backtrack": false,
+      "override_allow_higher_fail_count": false,
+      "allow_search_override": true,
+      "allow_detector_override": true,
+      "allow_action_override": true,
+      "override_relative_baseline_risk_threshold": 0.2,
+      "override_relative_min_risk_improvement": 0.04,
+      "override_max_risk_ratio": 0.75,
+      "debug_force_override_when_very_safe": false,
+      "debug_force_min_baseline_risk": 0.2,
+      "debug_force_min_risk_improvement": 0.05,
+      "debug_force_max_risk_ratio": 0.7,
+      "debug_force_max_final_cost_ratio": 1.02,
+      "override_near_tie_final_cost_ratio": 1.01,
+      "override_similar_cost_min_risk_improvement": 0.03,
+      "disable_cache_when_ml_active": false,
+      "shadow_only": true,
+      "shadow_log_top_candidates": 6
+    }
+  }
+}

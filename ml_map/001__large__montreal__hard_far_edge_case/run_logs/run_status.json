@@ -1,0 +1,40 @@
+{
+  "map_name": "001__large__montreal__hard_far_edge_case",
+  "size_group": "large",
+  "base_map": "montreal",
+  "family": "hard_far_edge_case",
+  "command": "bash /home/milim/agent/rcrs-server/scripts/start-comprun.sh -m ../../ml_map/001__large__montreal__hard_far_edge_case/map -c ../../ml_map/001__large__montreal__hard_far_edge_case/config",
+  "agent_command": "/home/milim/agent/.venv/bin/python main.py",
+  "script_dir": "/home/milim/agent/rcrs-server/scripts",
+  "started_at_epoch": 1776095058.7730188,
+  "finished_at_epoch": 1776095214.6525881,
+  "server_return_code": -9,
+  "agent_return_code": -15,
+  "agent_started": true,
+  "agent_run_id": "001__large__montreal__hard_far_edge_case__20260413_184418",
+  "finished": true,
+  "failure_reason": null,
+  "max_tick_seen": 150,
+  "expected_timesteps": 150,
+  "wall_runtime_sec": 155.847,
+  "copied_raw_logs": [
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/raw/947679547__detector.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/raw/947679547__path.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/raw/947679547__search.jsonl"
+  ],
+  "copied_debug_logs": [
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlDetector_947679547_detector_i41488.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlPathPlanning_947679547_path_i38544.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlPathPlanning_947679547_path_i42704.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlPathPlanning_947679547_path_i42704.log",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlPathPlanning_947679547_path_i80320.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlPathPlanning_947679547_path_i89008.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlPathPlanning_947679547_path_i94448.jsonl",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/debug/MlSearch_947679547_search_i93168.jsonl"
+  ],
+  "copied_text_logs": [
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/text/MlDetector_947679547.log",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/text/MlPathPlanning_947679547.log",
+    "/home/milim/agent/ml_map/001__large__montreal__hard_far_edge_case/run_logs/agent_runtime_logs/text/MlSearch_947679547.log"
+  ]
+}

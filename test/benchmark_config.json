@@ -1,0 +1,26 @@
+{
+  "run_label": "hd_sample_nearest",
+  "variant_label": "HumanDetector=SampleNearest;Search=ClusterNearest;Path=AStarCompat",
+  "server_scripts_dir": "rcrs-server/scripts",
+  "agent_dir": "newAgent",
+  "output_dir": "test",
+  "agent_command": [
+    "python",
+    "main.py"
+  ],
+  "startup_delay_sec": 5,
+  "poll_interval_sec": 1,
+  "server_timeout_sec": 3600,
+  "stall_timeout_sec": 60,
+  "settle_after_finish_sec": 2,
+  "cleanup_between_runs_sec": 2,
+  "progress_every_ticks": 20,
+  "repeats": 1,
+  "maps": [
+    {
+      "name": "test_map1",
+      "map_path": "ml_map/001__small__tutorial_fire_brigade_only__dispersed_small_groups",
+      "config_path": "ml_map/001__small__tutorial_fire_brigade_only__dispersed_small_groups/config"
+    }
+  ]
+}
