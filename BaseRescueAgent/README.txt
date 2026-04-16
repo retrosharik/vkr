@@ -50,7 +50,7 @@ python -m BaseRescueAgent.ml.train_search_v2 \
   --test-size 0.25 \
   --random-state 42
 
-3) Path (исследовательский пайплайн, не используется в итоговой боевой конфигурации)
+3) Path (исследовательский пайплайн, не используется в итоговой конфигурации)
 python -m BaseRescueAgent.ml.build_path_edge_dataset_v3 \
   --runtime-raw-logs runtime/raw_logs \
   --output-dir runtime/datasets/retrain_path_v3
