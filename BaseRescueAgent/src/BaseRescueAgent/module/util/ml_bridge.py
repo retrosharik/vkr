@@ -7,19 +7,19 @@ from typing import Any
 from .runtime_settings import project_root, setting
 
 try:
-    from ...ml.ml_detector_model import MlDetectorModel
+    from ...ml.detector_v3_model import DetectorV3Model
 except Exception:
-    MlDetectorModel = None  
+    DetectorV3Model = None
 
 try:
-    from ...ml.ml_search_model import MlSearchModel
+    from ...ml.search_v2_model import SearchV2Model
 except Exception:
-    MlSearchModel = None 
+    SearchV2Model = None
 
 try:
-    from ...ml.ml_path_planning_model import MlPathPlanningModel
+    from ...ml.path_edge_risk_model import PathEdgeRiskModel
 except Exception:
-    MlPathPlanningModel = None 
+    PathEdgeRiskModel = None
 
 
 _MODEL_CACHE: dict[str, Any] = {}
@@ -57,15 +57,15 @@ class MlBridge:
         fallback_paths: list[Path] = []
         if self.module_type == 'detector':
             fallback_paths = [
-                project_root() / 'models' / 'ml_detector' / 'ml_detector.joblib',
+                project_root() / 'models' / 'stage4_detector_v3_from_65runs' / 'detector_v3.joblib',
             ]
         elif self.module_type == 'search':
             fallback_paths = [
-                project_root() / 'models' / 'ml_search' / 'ml_search.joblib',
+                project_root() / 'models' / 'stage3_v2' / 'search_v2' / 'search_v2.joblib',
             ]
         elif self.module_type == 'path':
             fallback_paths = [
-                project_root() / 'models' / 'ml_path_planning' / 'ml_path_planning.joblib',
+                project_root() / 'models' / 'path_edge_risk_v1' / 'path_edge_risk_v1.joblib',
             ]
         for path in fallback_paths:
             resolved = path.resolve()
@@ -104,17 +104,17 @@ class MlBridge:
                 if not path.exists():
                     raise FileNotFoundError(str(path))
                 if self.module_type == 'detector':
-                    if MlDetectorModel is None:
-                        raise RuntimeError('MlDetectorModel import failed')
-                    model = MlDetectorModel(path)
+                    if DetectorV3Model is None:
+                        raise RuntimeError('DetectorV3Model import failed')
+                    model = DetectorV3Model(path)
                 elif self.module_type == 'search':
-                    if MlSearchModel is None:
-                        raise RuntimeError('MlSearchModel import failed')
-                    model = MlSearchModel(path)
+                    if SearchV2Model is None:
+                        raise RuntimeError('SearchV2Model import failed')
+                    model = SearchV2Model(path)
                 elif self.module_type == 'path':
-                    if MlPathPlanningModel is None:
-                        raise RuntimeError('MlPathPlanningModel import failed')
-                    model = MlPathPlanningModel(path)
+                    if PathEdgeRiskModel is None:
+                        raise RuntimeError('PathEdgeRiskModel import failed')
+                    model = PathEdgeRiskModel(path)
                 else:
                     raise RuntimeError(f'Unsupported ML module type: {self.module_type}')
                 _MODEL_CACHE[cache_key] = model
