@@ -1,0 +1,16 @@
+{
+  "generated_name": "003__small__tutorial_ambulance_team_only__clustered_far_from_refuge",
+  "base_map": "tutorial_ambulance_team_only",
+  "size_group": "small",
+  "family": "clustered_far_from_refuge",
+  "seed": 368569457,
+  "requested_seed": 615188,
+  "requested_base_civilian_count": 25,
+  "generator_version": "3.0",
+  "effective_civilian_count": 25,
+  "actual_civilian_count": 25,
+  "building_count": 37,
+  "description": "far cluster from refuge",
+  "source_map_dir": "/home/milim/agent/rcrs-server/maps/tutorial_ambulance_team_only",
+  "source_config_dir": "/home/milim/agent/ml_map_generator/config"
+}
